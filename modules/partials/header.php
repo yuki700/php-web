@@ -39,8 +39,9 @@
       <!-- The menu -->
 	  <nav>
 		  <ul>
-		  <li><a href="./index.php">Home</a></li>
-          <li><a href="./index.php?m=profile">My Profile</a></li>
-
+			  <li>Menu 1</li>
+			  <li>Menu 2</li>
+			  <li>Menu 3</li>
+			  <li>Menu 4</li>
 		  </ul>
 	  </nav>
