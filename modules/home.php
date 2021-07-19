@@ -6,6 +6,8 @@
         <h3>Users List </h3>
         <?php
             try {
+                $sql = "SELECT id, username, email, fullname 
+                        FROM users;" ;
                 $result = $mysql->query($sql);
             } catch (Exception $e) {
                 echo "<p>Error: $e->getMessage()</p>";
